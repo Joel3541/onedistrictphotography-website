@@ -1,0 +1,451 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One District Photography</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="assets/img/One District Watermark Gold 1.png" rel="icon">
+</head>
+
+
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="navbar-container">
+      <img src ="assets/img/One District Watermark Gold 1.png" class="navbar-logo" alt="One District Photography Logo">
+      <!--link href="assets/img/WHITE VATRIATION QUALIFY SUITS 1.png" rel="icon"-->
+
+      
+      <!-- Desktop Navigation -->
+      <div class="navbar-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="close-icon hidden">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-image">
+      <img src="assets/img/hero.jpg" alt="Camera lens close-up">
+      <div class="hero-overlay"></div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-text animate-fade-in">
+        <h1>One District Photography</h1>
+        <p>One Family</p>
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="animate-bounce">
+        <path d="M12 5v14M19 12l-7 7-7-7" />
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about section-fade-in">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <h2>About The Us</h2>
+          <p>
+            With over 9 years of professional experience, we specialize in capturing the essence of moments that tell your unique story. <br> 
+            Our passion lies in creating timeless images that evoke genuine emotion.
+          </p>
+          <p>
+            We believe that photography is more than just taking pictures - it's about creating a connection and preserving memories that will last a lifetime. Whether it's a wedding, portrait session, or commercial project, we approach each with dedication and artistic vision.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <h3>100+</h3>
+              <p>Happy Clients</p>
+            </div>
+
+            <!--div class="stat">
+              <h3>15+</h3>
+              <p>Awards Won</p>
+            </div-->
+
+            <div class="stat">
+              <h3>9+</h3>
+              <p>Years Experience</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="image-container">
+            <img src="assets/img/photographer at work 1.jpg" alt="Photographer at work">
+            <div class="image-bg-1"></div>
+            <div class="image-bg-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio section-fade-in">
+    <div class="container">
+      <div class="section-header">
+        <h2>Portfolio</h2>
+        <p>Browse through a collection of our best work across various photography styles and settings.</p>
+      </div>
+      
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-category="all">All Work</button>
+        <button class="filter-btn" data-category="portraits">Portraits</button>
+        <button class="filter-btn" data-category="landscapes">Landscapes</button>
+        <button class="filter-btn" data-category="events">Events</button>
+      </div>
+      
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="landscapes">
+          <img src="assets/img/background_.jpg" alt="Real Estates">
+          <div class="portfolio-overlay">
+            <h3>Real Estates</h3>
+            <p>Landscapes</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="portraits">
+          <img src="assets/img/DSC_0246.jpg" alt="Natural Light Portrait">
+          <div class="portfolio-overlay">
+            <h3>Natural Light Portrait</h3>
+            <p>Portraits</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="landscapes">
+          <img src="assets/img/sky_tree.jpg" alt="Outdoor Vegetation">
+          <div class="portfolio-overlay">
+            <h3>Outdoor Vegetation</h3>
+            <p>Landscapes</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="portraits">
+          <img src="assets/img/photo_2022-06-23_02-54-43 (2).jpg" alt="Natural Environment">
+          <div class="portfolio-overlay">
+            <h3>Natural Environment</h3>
+            <p>Portraits</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="landscapes">
+          <img src="assets/img/Joel_dope pic-11.jpg" alt="Outdoor Vegetation">
+          <div class="portfolio-overlay">
+            <h3>Outdoor Vegetation</h3>
+            <p>Landscapes</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="landscapes">
+          <img src="assets/img/sky_mountains.jpg" alt="Mountain Reflection">
+          <div class="portfolio-overlay">
+            <h3>Mountain Horizon</h3>
+            <p>Landscapes</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="events">
+          <img src="assets/img/weddings event.jpg" alt="Beach Ceremony">
+          <div class="portfolio-overlay">
+            <h3>Wedding Ceremony</h3>
+            <p>Events</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="events">
+          <img src="assets/img/birthday_event.jpg" alt="Night Event">
+          <div class="portfolio-overlay">
+            <h3>Birthday Event</h3>
+            <p>Events</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="portfolio-cta">
+        <a href="#contact" class="btn btn-outlined">Let's Create Together</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Services Section -->
+  <section id="services" class="services section-fade-in">
+    <div class="container">
+      <div class="section-header">
+        <h2>Services</h2>
+        <p>We offer a range of professional photography services to meet your needs.</p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">👰</div>
+          <h3>Wedding Photography</h3>
+          <p>Capture every magical moment of your special day with our comprehensive wedding photography packages.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">👪</div>
+          <h3>Portrait Sessions</h3>
+          <p>Professional portrait sessions for individuals, couples, families, and corporate headshots.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🏙️</div>
+          <h3>Commercial Photography</h3>
+          <p>High-quality images for your business, products, real estate, and marketing campaigns.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🎓</div>
+          <h3>Event Coverage</h3>
+          <p>Professional coverage for special events, graduations, birthdays, and corporate gatherings.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">👔</div>
+          <h3>Fashion Photography</h3>
+          <p>
+            Striking captures that highlight contemporary fashion trends, designer collections, 
+            and iconic style moments - captured through expressive poses, dynamic compositions, 
+            and high-end styling that celebrates the artistry of clothing and self-expression.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🏝️</div>
+          <h3>Nature Photgraphy</h3>
+          <p>
+            Breathtaking imagery capturing the raw beauty of the natural world - 
+            from majestic mountains and serene forests to dramatic skies and untouched wilderness, 
+            each frame celebrates the wonder, color, and serenity found in nature’s most 
+            awe-inspiring moments
+          </p>
+        </div>
+      </div>
+      
+      <div class="custom-package">
+        <h3>Custom Photography Packages</h3>
+        <p>Need something specific? Contact us to discuss custom photography packages tailored to your exact requirements.</p>
+        <a href="#contact" class="btn btn-primary1">Inquire Now</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section-fade-in">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <p>Have a project in mind or want to discuss your photography needs? We'd love to hear from you.</p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Let's Work Together</h2>
+          <p>Fill out the form or contact us directly through any of the provided channels. <br>
+            I'll get back to you as soon as possible.</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-text">
+                <h3>Phone</h3>
+                <p>+233 55 725 9100, +233 54 478 6441</p>
+                <p></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-text">
+                <h3>Email</h3>
+                <p>onedistrictentertainment@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-text">
+                <h3>Location</h3>
+                <p>Accra, Ghana</p>
+              </div>
+            </div>
+          </div>  
+          <div class="social-links">
+            <h3>Follow Me</h3>
+            <div class="social-icons">
+              <!--a href="#" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </a-->
+              <a href="https://www.instagram.com/one_district_entertainment?igsh=NDB2bzExamVidTd0" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <!--a href="#" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                </svg>
+              </a-->
+            </div>
+          </div>
+        </div>    
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary1 submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-info">
+          <h3>One District Photography</h3>
+          <p>One Family.</p>
+
+          <div class="footer-social">
+
+            <!--a href="#" class="footer-social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a-->
+
+            <a href="https://www.instagram.com/one_district_entertainment?igsh=NDB2bzExamVidTd0" class="footer-social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+
+            <!--a href="#" class="footer-social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+              </svg>
+            </a-->
+
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <nav class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        
+        <div class="footer-contact">
+          <h3>Contact Info</h3>
+          <div class="footer-contact-info">
+            <p>Accra, Ghana</p>
+            <p>onedistrictentertainment@gmail.com</p>
+            <p>+233 55 725 9100</p>
+            <p>+233 54 478 6441</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> One District Photography. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTop" class="scroll-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Toast Message -->
+  <div id="toast" class="toast">
+    <div class="toast-title">Success!</div>
+    <div class="toast-message">Your message has been sent successfully.</div>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
